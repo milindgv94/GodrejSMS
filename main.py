@@ -15,9 +15,9 @@ def execute():
         GodrejSMS.sendsms(mobile, sms)
         logmessage = str(mobile) + ' | ' + sms
         app.logger.info(logmessage)
-        return jsonify({'Success': 'SMS Sent Successfully'})
+        return jsonify({'Action': 'Success', 'Message': 'SMS Sent Successfully'})
     else:
-        return jsonify({'Error': 'Mobile Number provided is Invalid'})
+        return jsonify({'Action': 'Error', 'Message': 'Mobile Number provided is Invalid'})
 
 
 if __name__ == '__main__':
