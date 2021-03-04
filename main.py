@@ -19,7 +19,12 @@ def execute():
     else:
         return jsonify({'Action': 'Error', 'Message': 'Mobile Number provided is Invalid'})
 
-
+    
+@app.route('/check')
+def check():
+    return jsonify({'Action': 'Success', 'Message': 'GodrejSMS App is running'})
+    
+    
 if __name__ == '__main__':
     formatter = logging.Formatter(
         '%(asctime)s | %(levelname)s | %(message)s')
