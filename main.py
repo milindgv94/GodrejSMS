@@ -27,7 +27,7 @@ def check():
     
 if __name__ == '__main__':
     # formatter = logging.Formatter(
-        '%(asctime)s | %(levelname)s | %(message)s')
+    #    '%(asctime)s | %(levelname)s | %(message)s')
     # log = RotatingFileHandler('logs/stdout.log', maxBytes=100000000, backupCount=0)
     # log.setFormatter(formatter)
     # app.logger.addHandler(log)
