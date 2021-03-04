@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'godrejsms'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_23457f5ab8814db5a9d51cc593ca6827 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b66f4a924089495587c5c1cef202f483 }}
